@@ -1,0 +1,40 @@
+<?php
+$perguntas = array(
+    "Normalmente, quantos litros de sangue uma pessoa tem? Em média, quantos são retirados numa doação de sangue?",
+    "De quem é a famosa frase \"Penso, logo existo\"?",
+    "De onde é a invenção do chuveiro elétrico?",
+    "Quais o menor e o maior país do mundo?",
+    "Quem pintou \"Guernica\"?",
+    "Quanto tempo a luz do Sol demora para chegar à Terra?");
+
+$respostas = array(
+    "Tem entre 2 a 4 litros. São retirados 450 mililitros",
+    "Tem entre 4 a 6 litros. São retirados 450 mililitros",
+    "Tem 10 litros. São retirados 2 litros",
+    "Tem 7 litros. São retirados 1,5 litros",
+    "Tem 0,5 litros. São retirados 0,5 litros",
+    "Platão",
+    "Galileu Galilei",
+    "Descartes",
+    "Sócrates",
+    "Francis Bacon",
+    "França",
+    "Inglaterra",
+    "Brasil",
+    "Austrália",
+    "Itália",
+    "Vaticano e Rússia",
+    "Nauru e China",
+    "Mónaco e Canadá",
+    "Malta e Estados Unidos",
+    "São Marino e Índia", "Paul Cézanne",
+    "Pablo Picasso",
+    "Diego Rivera",
+    "Tarsila do Amaral",
+    "Salvador Dalí",
+    "12 minutos",
+    "1 dia",
+    "12 horas",
+    "8 minutos",
+    "segundos");
+$respostas_corretas = array(2, 3, 3, 1, 2, 4);
