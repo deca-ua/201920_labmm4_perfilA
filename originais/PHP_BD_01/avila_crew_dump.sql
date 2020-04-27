@@ -33,7 +33,7 @@ CREATE TABLE `avila_comments` (
   `comment` varchar(255) NOT NULL,
   `date` date NOT NULL,
   `avila_mentors_id_mentors` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `avila_comments`
@@ -59,7 +59,7 @@ CREATE TABLE `avila_mentors` (
   `image` varchar(30) NOT NULL,
   `user` varchar(20) NOT NULL,
   `pass` varchar(128) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `avila_mentors`
@@ -119,7 +119,7 @@ CREATE TABLE `avila_sessions` (
   `date` date NOT NULL,
   `image` varchar(30) NOT NULL,
   `description` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `avila_sessions`
